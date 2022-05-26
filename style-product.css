@@ -1,0 +1,26 @@
+.info{
+    display: flex;
+    gap: 100px;
+}
+.info__mid{
+    width: 25%;
+}
+.main-zoom img{
+    width: 100%;
+    object-fit: cover;
+}
+.product__zoom{
+    position: relative;
+}
+.lens{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.result-zoom{
+    background-image: url(img/product1.webp);
+    background-position: 50% 0;
+    width: auto;
+    height: auto;
+}
